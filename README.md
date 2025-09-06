@@ -1,6 +1,6 @@
 # Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 ### DATE:                                                                            
-### REGISTER NUMBER : 212222240027
+### REGISTER NUMBER : 212222240018
 ### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
 
 Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
