@@ -1,48 +1,111 @@
 # Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 ### DATE:                                                                            
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212222240027
 ### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
 
-### Algorithm:  1. Direct Instruction Prompts
-Objective: Guide the chatbot to respond concisely to customer inquiries.
-Prompt Pattern:
-Prompt: "When a customer asks for the status of their order, reply with: 'Your order is currently being processed and will be delivered by [date].'"
-2. Contextual Prompting
-Objective: Incorporate specific context to provide detailed answers based on the user’s previous interaction.
-Prompt Pattern:
-Prompt: "If the customer previously mentioned that they haven’t received their order, say, 'I see that you mentioned your order hasn't arrived yet. Let me check the details for you and get back shortly.'"
-3. Persona-Based Prompting
-Objective: Design the chatbot to adopt a specific persona, making the interaction more engaging.
-Prompt Pattern:
-Prompt: "Pretend you are a friendly, helpful customer service representative. Use a conversational tone, such as 'Hey there! I’m here to help with any questions you might have. Let’s get your issue sorted!'"
-4. Few-Shot Prompting
-Objective: Teach the AI how to respond using a few examples, enabling it to generalize for similar situations.
-Prompt Pattern:
-Prompt: "Here are some examples of how to handle technical questions:
-'My phone isn't charging.' → 'Have you tried using a different cable? If that doesn’t work, it may be an issue with the port.'
-'The screen is flickering.' → 'It sounds like a display issue. Have you tried restarting the device?'
-Now, respond to: 'My app keeps crashing.'"
-5. Chain of Thought Prompting
-Objective: Use a step-by-step reasoning approach for resolving more complex or technical issues.
-Prompt Pattern:
-Prompt: "When a customer reports their laptop overheating, guide them through the following steps:
-Ask if they are using the laptop on a soft surface.
-Suggest moving the laptop to a flat, hard surface for better airflow.
-Ask if they’ve cleaned the vents recently.
-Recommend restarting the device to see if the issue persists.
-Now, solve: 'My laptop fan is making a loud noise.'"
-6. Instruction with Constraints
-Objective: Instruct the chatbot to provide assistance while adhering to specific constraints (e.g., response length or tone).
-Prompt Pattern:
-Prompt: "Respond to order inquiries in no more than 50 words and avoid using technical jargon. For example, 'Your order is on the way and should arrive by [date]. Feel free to reach out if you need anything else.'"
-7. Reflective Prompting
-Objective: Ensure that the chatbot reflects the user’s query back to them before providing a response, reducing misunderstandings.
-Prompt Pattern:
-Prompt: "When a customer asks for help, first reflect their question back to them. For example, if they ask 'How can I reset my password?' respond with 'You're asking how to reset your password, correct? Here’s how you can do it.'"
-Result: The various types of Prompts are executed successfully.
+Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
+Procedure:
+
+1. Define the Scenario and Use Case
+Scenario:
+In today’s fast-paced lifestyle, people are increasingly health-conscious and want to know the nutritional information of the food they consume. Restaurants, cafeterias, and online food services require an automated system to present food menu details clearly and attractively.
+
+Use Case:
+The system will generate a nutritional chart for food menus that includes calories, protein, fat, and allergens. This structured representation helps customers make informed choices.
+
+Target Audience:
+
+Restaurants and Cafeterias
+Online Food Delivery Platforms
+Health-conscious customers
+
+2. Main Objectives
+📊 Provide a structured nutritional chart for various dishes.
+🍴 Help users easily identify ingredients, calorie intake, and proteins.
+⚠️ Highlight allergen information for customer safety.
+🌟 Present data in a colorful and user-friendly format.
+
+3. Identify Prompt Patterns for Each Design Aspect
+1. Define the Scenario and Use Case
+Scenario:
+In today’s fast-paced lifestyle, people are increasingly health-conscious and want to know the nutritional information of the food they consume. Restaurants, cafeterias, and online food services require an automated system to present food menu details clearly and attractively.
+
+Use Case:
+The system will generate a nutritional chart for food menus that includes calories, protein, fat, and allergens. This structured representation helps customers make informed choices.
+
+Target Audience:
+
+Restaurants and Cafeterias
+Online Food Delivery Platforms
+Health-conscious customers
+
+2. Main Objectives
+
+📊 Provide a structured nutritional chart for various dishes.
+🍴 Help users easily identify ingredients, calorie intake, and proteins.
+⚠️ Highlight allergen information for customer safety.
+🌟 Present data in a colorful and user-friendly format.
+
+3. Identify Prompt Patterns for Each Design Aspect
+
+💡 Idea Generation Prompts
+
+Prompt: “What features should be included in a food menu nutritional chart in tabular format?”
+Generated Ideas:
+Dish name with short description and main ingredients.
+Nutritional values: Calories, Protein, Fat, Carbohydrates, Fiber.
+Special highlights for allergen information (like gluten, dairy, nuts, soy).
+A standardized table structure for quick comparison.
+Symbols or color highlights for health categories (✔ High Protein, 🟢 Low Fat).
+Add a column for “Dietary Suitability” (e.g., Vegan, Vegetarian, Keto-friendly).
+
+👩‍💻 Persona and Context Prompts
+Prompt: “What should the nutritional chart convey to the end-user?”
+Generated Context:
+Customers must feel the chart is reliable and accurate.
+It should support dietary decision-making (weight loss, bodybuilding, etc.).
+The design should be simple so even non-technical users understand it.
+Provide trust and transparency from the restaurant or provider.
+Support quick scanning of dishes (people don’t read long paragraphs).
+Encourage healthier choices by showing comparisons side by side.
+
+🎨 Structural / Formatting Prompts
+
+Prompt: “How should the nutritional data be displayed for maximum clarity?”
+Generated Structures:
+A clean, tabular format with consistent alignment.
+Use headers for each nutritional category.
+Keep units standardized (kcal, grams).
+Separate allergens in a distinct column or highlight them.
+Optionally include icons for vegetarian 🌱, vegan 🥗, or non-veg 🍗 dishes.
+
+📊 Analytical / Expansion Prompts
+
+Prompt: “How can the chart provide more than just numbers?”
+Generated Enhancements:
+Include daily value percentages (e.g., 15% of daily protein needs).
+Add health labels like “Low Carb,” “Heart Healthy,” or “High Fiber.”
+Group dishes by category (Starters, Mains, Desserts).
+Show comparisons (this dish vs. average daily needs).
+Provide diet recommendations (e.g., good for post-workout meals).
+
+Example Combined Prompt Workflow
+
+Idea Prompt: Generate list of essential columns for nutritional chart.
+Persona Prompt: Adjust columns for user needs (diet-conscious, allergen-sensitive).
+Structural Prompt: Format in table with aligned headers.
+Analytical Prompt: Enrich table with health labels and dietary suitability.
+
+<img width="844" height="636" alt="image" src="https://github.com/user-attachments/assets/5496b418-b9a9-41bc-9bcc-baaec1e4f74a" />
 
 
+Conclusion
+The various types of prompts were successfully applied to generate the Food Menu Nutritional Chart.
+The chart provides clear, structured, and visually appealing nutritional information, enabling customers to make healthier food choices while ensuring safety through allergen awareness. Result: The various types of Prompts are executed successfully with generated the report.
 
+<img width="778" height="516" alt="image" src="https://github.com/user-attachments/assets/7dbb7bfb-cd81-452e-ba2e-723e60042730" />
+
+"The above figure represents the same nutritional chart in a more engaging and pictorial form for better readability and presentation."
 
 # Result: Thus the Prompts were exected succcessfully .
 
